@@ -21,7 +21,7 @@ allprojects {
         jcenter()
         maven { url 'https://jitpack.io' }
 
-        maven { url "http://163.172.153.95:8081/artifactory/public" }
+        maven { url "https://artifactory.wassa.io/artifactory/public" }
     }
 }
 
