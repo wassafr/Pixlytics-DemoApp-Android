@@ -7,6 +7,19 @@ All this operations are made with requests to Pixlytics server but the recogniti
 
 ## Installation
 
+```
+allprojects {
+    repositories {
+        // ...
+        maven { url "http://artifactory.wassa.io/artifactory/public" }
+    }
+}
+
+dependencies {
+    implementation("io.wassa.libraries:pixlytics-sdk:$PIX_VERSION")
+}
+```
+
 ## Usage
 
 **Attention :** To use the SDK, you need a license key that you can get on the [Pixlytics website](https://www.pixlytics.io)
@@ -17,7 +30,7 @@ The main sdk entry points are RecognitionSession and Pixlytics. You have to keep
 
 ## Documentation
 
-You can find a more detailled documentation of the SDK at the following [address](www.pixlytics.io/docs).
+You can find a more detailled documentation of the SDK at the following [address](www.pixlytics.io/sdk/documentation).
 If you need to contact us, send an email at support@wassa.io
 
 ## Requirements
